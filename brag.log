@@ -1,0 +1,54 @@
+commit 74a94a8b4ab31ed8f4416e10500deae4713166be (HEAD -> master, origin/master)
+Author: pippianders <pippianders@aol.com>
+Date:   Wed Mar 29 21:52:01 2023 +0200
+
+    <html>
+    <title>Git commit and all that iSht</title>
+    <body>
+    <h1>anderspippi.github.io</h1>
+    <pre><code>( Life is literally and virtually, awesome! )
+     -------------------------------------------
+                           o
+                            o
+                             o
+                              o   ▄▄▄█▀
+                                ▄▄██▄▄▄▄▄
+                            ▄▄▄█▄██████▄██
+                           ▄▄███▄▄████▄▄███
+                          ▄█████▄▄██▄██▄▄██
+                         ██▄▄█████▄██▄█▄▄▀
+                         ██▄████▄▄▄█▄█▄█▄▄
+                         █████████▄▄█▄███▄▄▄
+        ▄▄▄▄▄▄▄          ▀▄███████████▄█████
+      ▄▄██▄▄▄▄▄▄▄▄         ▀▀▄██▄██████▄▄█▀
+     ▄▄█▄█▄▄▄▄▄▄▄▄█▄▄▄▄▄     ████▄▄▄█▀▀▀▀
+     ████████▄▀▀▀▄▄████▄█████▄▄██████
+     ▀▄████████ ▄▄█▄▄▄█▄▄▄▄▄█████████
+       ██████▀█ ██▄▄███▄▄▄▄▄███▄███▄▀
+       ▀▄████   █▄▄▄▄██▄▄▄▄▄▄█████▄▀
+         ▀ ▀▄█  ▀▄███████████████▄▀
+                ▄▄███▄█▄▄▄▄▄▄█████
+               ██████▄▄▀    ██████
+              ▄▄███████     ████▄█▄
+              ████████▄▄    ██████▄▄
+              █████▄▄███    ███████▄█
+              ███████▀▀▀    ▀▄████▄█▀
+              ▀▀▀▀▀▀▀        ▀▀▀▀▀▀▀
+    </code></pre>
+    </body>
+    </html>
+(base) ap@neimen:~/godmode$ cp ~/Pictures/Screenshots/screenshot.png .'
+> '
+(base) ap@neimen:~/godmode$ ls
+(base) ap@neimen:~/godmode$ cp ~/Pictures/Screenshots/screenshot.png .
+(base) ap@neimen:~/godmode$ ls
+screenshot.png
+(base) ap@neimen:~/godmode$ git add screenshot.png 
+(base) ap@neimen:~/godmode$ git commit -m Life is literally and virtually, awesome!
+[master 022d18e] Life is literally and virtually, awesome!
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 screenshot.png
+(base) ap@neimen:~/godmode$ echo  > /tmp/brag.log && cp /tmp/brag.log . git add brag.log && echo bazinga && git commit -m dude 
+cp: target 'brag.log' is not a directory
+(base) ap@neimen:~/godmode$ echo  > /tmp/brag.log && cp /tmp/brag.log . git add brag.log && echo bazinga && git commit -m dude 
+
